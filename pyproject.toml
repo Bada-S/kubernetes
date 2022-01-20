@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kube"
+version = "0.1.0"
+description = ""
+authors = ["Bada-S <jamessopkin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+prefect = "^0.15.12"
+dask-kubernetes = "^2021.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
